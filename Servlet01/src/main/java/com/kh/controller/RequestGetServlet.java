@@ -21,7 +21,6 @@ public class RequestGetServlet extends HttpServlet {
      */
     public RequestGetServlet() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
@@ -142,6 +141,8 @@ public class RequestGetServlet extends HttpServlet {
 			out.println("</ul>");
 		}
 		
+		
+		
 		out.println("</body>");
 		
 		out.println("</html>");
@@ -151,7 +152,6 @@ public class RequestGetServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 
