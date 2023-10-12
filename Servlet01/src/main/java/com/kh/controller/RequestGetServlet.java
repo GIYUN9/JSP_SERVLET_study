@@ -96,7 +96,7 @@ public class RequestGetServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		
 		// 3) 위에만든 스트림을 통해 응답html구문을 한줄씩 출력
-		
+		  
 		out.println("<html>");
 		out.println("<head>");
 		out.println("<style>");
